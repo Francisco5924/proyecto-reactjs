@@ -1,0 +1,30 @@
+.nav-container{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(247, 10, 207);
+}
+.nav-brand{
+    width: 40px;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+}
+.navegacion a{
+    margin: 10px;
+
+}
+
+.claseActive{
+    color: rgb(250, 247, 247)
+}
+.claseInactive{
+    color: blue;
+}
